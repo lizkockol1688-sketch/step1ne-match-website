@@ -6,3 +6,5 @@ dist/
 .env
 .env.local
 .sites-runtime/
+.vinext/
+line-public.env

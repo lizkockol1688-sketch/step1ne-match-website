@@ -1,1 +1,1 @@
-export const siteConfig = {name:"STEP1NE MATCH",url:"https://step1ne-creator-matching.jackyyuqi.chatgpt.site",brandBriefUrl:"/brand-brief",creatorJoinUrl:"/creators",lineOaUrl:"",brandEndpoint:"",creatorEndpoint:"",indexable:false};
+export const siteConfig = {name:"STEP1NE MATCH",url:"https://step1ne-creator-matching.jackyyuqi.chatgpt.site",brandBriefUrl:"/brand-brief",creatorJoinUrl:"/creators",lineOaUrl:"https://line.me/R/ti/p/@224zwiqi",brandEndpoint:"",creatorEndpoint:"",indexable:false};
