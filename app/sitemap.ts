@@ -1,0 +1,1 @@
+import {siteConfig} from "@/lib/site-config";export default function sitemap(){return ["/","/brand-brief","/creators"].map(path=>({url:siteConfig.url+path}))}
