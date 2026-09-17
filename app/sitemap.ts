@@ -1,1 +1,1 @@
-import {siteConfig} from "@/lib/site-config";export default function sitemap(){return ["/","/brand-brief","/creators"].map(path=>({url:siteConfig.url+path}))}
+import {siteConfig} from "@/lib/site-config";import {articles} from "@/lib/articles";export default function sitemap(){return [...["/","/brand-brief","/creators","/articles"].map(path=>({url:siteConfig.url+path})),...articles.map(a=>({url:`${siteConfig.url}/articles/${a.slug}`,lastModified:a.updated}))]}
