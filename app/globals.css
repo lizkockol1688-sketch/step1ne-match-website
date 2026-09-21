@@ -46,6 +46,15 @@
 .qcard-done .qactions{justify-content:center}
 .qline-share{display:flex;width:100%;margin-top:22px;background:#06c755;border-color:#06c755}
 .qline-share:hover{background:#05b34c;border-color:#05b34c}
+
+/* .duty is designed for a dark ambient background (homepage's .journey section sets color:white,
+   which the "brand" column's muted light text relies on) — this page sits on plain white, so the
+   brand column needs its own light-background + dark-text treatment instead. */
+.duty-light{border-color:#e2e5f0}
+.duty-light .duty-col.brand{background:#f7f8fc}
+.duty-light .duty-label{color:#5665e8}
+.duty-light .duty-dot{background:#aab0c9}
+.duty-light .brand li{color:#333b52}
 .qproduct-list{display:grid;gap:18px}
 .qproduct{border:1px solid #e2e5f0;border-radius:12px;padding:16px;display:grid;gap:16px;background:#fbfbfd}
 .qproduct-head{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;font-weight:700;color:#5665e8}

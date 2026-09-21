@@ -27,7 +27,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="duty" style={{ marginTop: 60 }}>
+        <div className="duty duty-light" style={{ marginTop: 60 }}>
           <div className="duty-col brand">
             <div className="duty-label">品牌只要</div>
             <ul>
