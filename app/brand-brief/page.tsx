@@ -57,7 +57,7 @@ export default function Page() {
           <ul style={{ marginTop: 20, paddingLeft: 20, color: "#657086", fontSize: 15, lineHeight: 2 }}>
             <li>問卷大概需要 5-8 分鐘，會問品牌背景、這次的商業目標、目標受眾、平台與內容偏好、預算與檔期</li>
             <li>目前送出入口尚未開放，填完會整理成一份摘要，複製後可直接加 LINE 貼給顧問</li>
-            <li>有現成的 Brand Deck 或 Brief？問卷裡有欄位可以直接貼摘要，不用重寫一次</li>
+            <li>有現成的品牌簡報或需求文件？問卷裡有欄位可以直接貼上摘要，不用重寫一次</li>
           </ul>
         </div>
 
