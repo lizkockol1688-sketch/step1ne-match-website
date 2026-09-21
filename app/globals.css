@@ -15,3 +15,30 @@
 @media(min-width:801px) and (max-width:1050px){.topbar .brand-logo{width:175px}.topbar{gap:16px}.nav{gap:12px}.topbar>.btn{padding:12px 16px;white-space:nowrap}}
 @media(max-width:800px){.topbar .brand-logo{width:117px}.topbar .brand-horizontal{display:none}.topbar .brand-mobile{display:flex;align-items:center;gap:6px}.brand-mobile img{width:34px;height:auto}.brand-mobile>span{font-size:15px;font-weight:800;letter-spacing:-.5px;color:#111727}.brand-mobile strong{display:block;font-size:11px;letter-spacing:2.5px;color:#5266e8;margin-top:5px}.footer-brand{width:235px}}
 @media(max-width:360px){.topbar>.btn{font-size:12px;padding:10px}.topbar .brand-logo{width:109px}.brand-mobile>span{font-size:14px}.brand-mobile img{width:30px}}
+
+/* Brand questionnaire — card-by-card intake, one topic per screen. */
+.qcard{max-width:640px;margin:0 auto;padding:10px 0 60px}
+.qprogress{height:4px;background:#e8eaf1;border-radius:4px;overflow:hidden;margin-bottom:36px}
+.qprogress span{display:block;height:100%;background:#5665e8;border-radius:4px;transition:width .3s ease}
+.qcard-inner{outline:none;animation:qfade .25s ease}
+@keyframes qfade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.qkicker{display:flex;justify-content:space-between;align-items:center;color:#5665e8;font-size:12px;font-weight:700;letter-spacing:.14em;margin:0 0 10px}
+.qcount{color:#9aa1b8;font-weight:600;letter-spacing:0}
+.qhint{color:#657086;font-size:14.5px;margin-top:10px}
+.qfields{display:grid;gap:22px;margin-top:26px}
+.qfield{display:grid;gap:8px;font-size:14.5px;font-weight:650;color:#111727}
+.qfield em{color:#c0392b;font-style:normal}
+.qfield input,.qfield textarea,.qfield select{border:1px solid #cdd4e5;border-radius:10px;padding:13px 14px;font-size:15px;font-weight:400;background:#fff;width:100%}
+.qfield textarea{min-height:110px;resize:vertical}
+.qoptions{display:flex;flex-wrap:wrap;gap:9px}
+.qoption{border:1px solid #cdd4e5;border-radius:24px;padding:9px 17px;font-size:14px;font-weight:600;color:#525d7b;background:#fff;transition:border-color .15s,background .15s,color .15s}
+.qoption:hover{border-color:#8f98c9}
+.qoption.active{background:#111727;border-color:#111727;color:#fff}
+.qactions{display:flex;justify-content:flex-end;gap:12px;margin-top:34px}
+.qactions .btn:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
+.qcard-done{text-align:center}
+.qcard-done .qcard-inner{max-width:520px;margin:0 auto}
+.qcheck{width:52px;height:52px;border-radius:50%;background:#eaf6ef;color:#1f8f5f;display:grid;place-items:center;margin:0 auto 18px}
+.qsummary{width:100%;min-height:220px;border:1px solid #cdd4e5;border-radius:10px;padding:14px;font-size:13.5px;line-height:1.7;margin-top:18px;white-space:pre-wrap;background:#f7f8fc}
+.qcard-done .qactions{justify-content:center}
+@media(max-width:600px){.qcard{padding:0 4px 40px}.qactions{flex-direction:column-reverse}.qactions .btn{width:100%}}
